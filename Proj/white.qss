@@ -1,0 +1,211 @@
+
+
+QWidget#MainWindow {
+                border: 1px solid rgb(111, 156, 207);
+                background: rgb(232, 241, 252);
+}
+
+QGroupBox {
+                font-size: 15px;
+                border: 1px solid rgb(111, 156, 207);
+                border-radius: 4px;
+                margin-top: 10px;
+}
+QGroupBox::title {
+                color: rgb(56, 99, 154);
+                top: -12px;
+                left: 10px;
+}
+
+QMenuBar {
+        background: rgb(187, 212, 238);
+        border: 1px solid rgb(111, 156, 207);
+        border-left: none;
+        border-right: none;
+}
+QMenuBar::item {
+        border: 1px solid transparent;
+        padding: 5px 10px 5px 10px;
+        background: transparent;
+}
+QMenuBar::item:enabled {
+        color: rgb(2, 65, 132);
+}
+QMenuBar::item:!enabled {
+        color: rgb(155, 155, 155);
+}
+QMenuBar::item:enabled:selected {
+        border-top-color: rgb(111, 156, 207);
+        border-bottom-color: rgb(111, 156, 207);
+        background: rgb(198, 224, 252);
+}
+
+QMenu {
+        border: 1px solid rgb(111, 156, 207);
+        background: rgb(232, 241, 250);
+}
+QMenu::item {
+        height: 22px;
+        padding: 0px 25px 0px 20px;
+}
+QMenu::item:enabled {
+        color: rgb(84, 84, 84);
+}
+QMenu::item:!enabled {
+        color: rgb(155, 155, 155);
+}
+QMenu::item:enabled:selected {
+        color: rgb(2, 65, 132);
+        background: rgba(255, 255, 255, 200);
+}
+QMenu::separator {
+        height: 1px;
+        background: rgb(111, 156, 207);
+}
+QMenu::indicator {
+        width: 13px;
+        height: 13px;
+}
+QMenu::icon {
+        padding-left: 2px;
+        padding-right: 2px;
+}
+
+
+
+
+QPushButton{
+    border-image:url(://Image/btn2_normal.png) 10 10 10 10;
+    border: 10px transparent;
+}
+
+QPushButton:pressed{
+    border-image:url(://Image/btn2_pressed.png) 10 10 10 10;
+    border: 10px transparent;
+}
+
+QPushButton:disabled {
+    border-image:url(://Image/btn2_disabled.png) 10 10 10 10;
+    border: 10px transparent;
+}
+
+
+QTabWidget::pane {
+                border: none;
+                border-top: 3px solid rgb(0, 78, 161);
+                background: rgb(187, 212, 238);
+}
+QTabWidget::tab-bar {
+                border: none;
+}
+QTabBar::tab {
+                border: none;
+                border-top-left-radius: 4px;
+                border-top-right-radius: 4px;
+                color: white;
+                background: rgb(120, 170, 220);
+                height: 28px;
+                min-width: 85px;
+                margin-right: 5px;
+                padding-left: 5px;
+                padding-right: 5px;
+}
+QTabBar::tab:hover {
+                background: rgb(0, 78, 161);
+}
+QTabBar::tab:selected {
+                color: white;
+                background: rgb(0, 78, 161);
+}
+
+QTabWidget#tabWidget::pane {
+        border: 1px solid rgb(111, 156, 207);
+        background: rgb(232, 241, 252);
+        margin-top: -1px;
+}
+
+QTabBar#tabBar::tab {
+        border: 1px solid rgb(111, 156, 207);
+        border-bottom: none;
+        color: rgb(70, 71, 73);
+        background: transparent;
+}
+QTabBar#tabBar::tab:hover {
+        color: rgb(2, 65, 132);
+}
+QTabBar#tabBar::tab:selected {
+        color: rgb(2, 65, 132);
+        background: rgb(232, 241, 252);
+}
+
+
+QTableView {
+        border: 1px solid rgb(111, 156, 207);
+        background: rgb(224, 238, 255);
+        gridline-color: rgb(111, 156, 207);
+}
+
+QTableView::item {
+        padding-left: 5px;
+        padding-right: 5px;
+        border: none;
+        background: white;
+        border-right: 1px solid rgb(111, 156, 207);
+        border-bottom: 1px solid rgb(111, 156, 207);
+}
+
+QTableView::item:selected {
+        background: rgba(255, 255, 255, 100);
+}
+
+
+QRadioButton{
+        spacing: 5px;
+}
+QRadioButton:enabled:checked{
+        color: rgb(2, 65, 132);
+}
+QRadioButton:enabled:!checked{
+        color: rgb(70, 71, 73);
+}
+QRadioButton:enabled:hover{
+        color: rgb(0, 78, 161);
+}
+QRadioButton:!enabled{
+        color: rgb(80, 80, 80);
+}
+QRadioButton::indicator {
+        width: 20px;
+        height: 20px;
+}
+
+QCheckBox{
+        spacing: 5px;
+}
+QCheckBox:enabled:checked{
+        color: rgb(2, 65, 132);
+}
+QCheckBox:enabled:!checked{
+        color: rgb(70, 71, 73);
+}
+QCheckBox:enabled:hover{
+        color: rgb(0, 78, 161);
+}
+QCheckBox:!enabled{
+        color: rgb(80, 80, 80);
+}
+QCheckBox::indicator {
+        width: 20px;
+        height: 20px;
+}
+
+
+
+}
+
+
+
+
+
+
+
